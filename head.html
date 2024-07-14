@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Gradient Styling</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.text-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#fff, #999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+}
+
+</style>
+<body>
+    <div class="text-container">
+        <h1>Collaborative</h1>
+        <h1>workflow</h1>
+        <h1>ecosystem</h1>
+    </div>
+</body>
+</html>
